@@ -20,3 +20,74 @@
   align-items: center;
   justify-content: center;
 }
+
+img{
+  margin-bottom: 10px;
+}
+
+.bloco{
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10%;
+  height: 50%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bloco h1{
+  font-family: sans-serif;
+  color: #8D1042;
+  font-size: 25px;
+  text-align: center;
+}
+
+.bloco h2{
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.bloco a{
+  font-family: 'Italic', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #640f3d;
+}
+
+.bloco p{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.titulo{
+  position: absolute;
+  top: 20px;
+  background-color: #640F3D;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 50px;
+  font-family: sans-serif;
+}
+
+.bloco-login{
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10%;
+  height: 50%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.bloco-login img{
+  width: 35%;
+}

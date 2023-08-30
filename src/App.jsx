@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import PagInicial from './Pages/PagInicial'
+import LoginPaciente from './PacientePages/LoginPaciete'
 
 function App(){
   return(
@@ -7,6 +8,7 @@ function App(){
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<PagInicial/>}/>
+          <Route path='/loginpaciente' element={<LoginPaciente/>}/>
         </Routes>
       </BrowserRouter>
     </div>
