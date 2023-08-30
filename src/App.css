@@ -1,0 +1,22 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.CentroX{
+  height: 100%;
+  background-color: #EBE5CE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CentroXY{
+  height: 100vh;
+  background-color: #EBE5CE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
