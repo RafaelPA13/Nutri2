@@ -1,4 +1,3 @@
-import '../App.css'
 import Logo from '../assets/Logo.png'
 
 function PagInicial(){
@@ -10,7 +9,7 @@ function PagInicial(){
                 <h2>Deseja entrar como:</h2>
                 <a href="/loginpaciente">Cliente</a>
                 <p>ou</p>
-                <a href="">Profissional</a>
+                <a href="/loginprofissional">Profissional</a>
             </main>
         </body>
     )
