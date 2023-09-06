@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Donegal+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
@@ -21,7 +25,15 @@
   justify-content: center;
 }
 
-img {
+.CentroX main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 30px 0px;
+}
+
+.logo {
   margin-bottom: 10px;
 }
 
@@ -172,4 +184,88 @@ img {
   resize: none;
   border: none;
   padding: 5px;
+}
+
+.banner{
+  background-color: #8D1042;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.banner div{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 30px 60px 0px 60px;
+}
+
+.banner div h1{
+  color: #EBE5CE;
+  font-family: 'Donegal One', sans-serif;
+}
+
+.banner div p{
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.banner div button{
+  position: absolute;
+  top: 230px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  background-color: #640F3D;
+  color: #fff;
+  font-weight: 1000;
+}
+
+.beneficios{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+
+.beneficios li{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 30px;
+}
+
+.icone{
+  border: 2px solid #8D1042;
+  padding: 15px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icone svg{
+  color: #8D1042;
+  width: 50px;
+  height: 50px;
+}
+
+li p{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: #8D1042;
+}
+
+.titulos-principais{
+  text-align: center;
+  font-family: 'Donegal One', sans-serif;
+  color: #640F3D;
 }

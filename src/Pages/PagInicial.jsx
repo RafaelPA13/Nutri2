@@ -3,7 +3,7 @@ import Logo from '../assets/Logo.png'
 function PagInicial(){
     return(
         <body className='CentroXY'>
-            <img src={Logo} alt="Logo"/>
+            <img className='logo' src={Logo} alt="Logo"/>
             <main className='bloco'>
                 <h1>Seja bem vindo ao nosso APP</h1>
                 <h2>Deseja entrar como:</h2>
