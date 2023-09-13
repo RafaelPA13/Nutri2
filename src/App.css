@@ -329,3 +329,70 @@
   font-size: 25px;
   color: #fff;
 }
+
+header{
+  box-sizing: border-box;
+  height: 70px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+#btn-mobile{
+  display: flex;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  gap: .5rem;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  gap: 15px;
+  position: absolute;
+  width: 100%;
+  top: 70px;
+  right: 0px;
+  background-color: #640F3D;
+  transition: .6s;
+  z-index: 1000;
+  height: 0px;
+  visibility: hidden;
+  overflow-y: hidden;
+}
+
+#nav.aberto .menu{
+  height: calc(36vh - 70px);
+  visibility: visible;
+  overflow-y: auto;
+}
+
+.menu li{
+  width: 90%;
+  background-color: #ff8aad42;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu li svg{
+  width: 25px;
+  height: 30px;
+  color: #fff;
+}
+
+.menu a{
+  padding: 1rem 0;
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}

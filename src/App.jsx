@@ -5,11 +5,12 @@ import LoginProfissional from './ProfissionalPages/LoginPro'
 import CadastroPaciente from './PacientePages/CadastroPaciente'
 import CadastroProfissional from './ProfissionalPages/CadastroPro'
 import Apresenstacao from './Pages/Apresentacao'
+import MenuPaciente from './Components/MenuPaciente'
 
 function App(){
   return(
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<PagInicial/>}/>
           <Route path='/loginpaciente' element={<LoginPaciente/>}/>
@@ -18,7 +19,8 @@ function App(){
           <Route path='/cadastroprofissional' element={<CadastroProfissional/>}/>
           <Route path='/apresentacao' element={<Apresenstacao/>}/>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <MenuPaciente/>
     </div>
   )
 }
