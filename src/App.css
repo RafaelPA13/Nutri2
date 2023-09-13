@@ -187,34 +187,28 @@
 }
 
 .banner{
+  padding: 30px 15px 0px 15px;
   background-color: #8D1042;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-}
-
-.banner div{
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 10px;
-  padding: 30px 60px 0px 60px;
 }
 
-.banner div h1{
+.banner h1{
   color: #EBE5CE;
   font-family: 'Donegal One', sans-serif;
 }
 
-.banner div p{
+.banner p{
   font-size: 20px;
   color: #fff;
   font-family: 'Didact Gothic', sans-serif;
 }
 
-.banner div button{
+.banner button{
   position: absolute;
   top: 230px;
   padding: 10px 40px;
@@ -242,7 +236,7 @@
   padding: 0px 30px;
 }
 
-.icone{
+.icone-beneficios{
   border: 2px solid #8D1042;
   padding: 15px;
   border-radius: 50px;
@@ -251,13 +245,13 @@
   align-items: center;
 }
 
-.icone svg{
+.icone-beneficios svg{
   color: #8D1042;
   width: 50px;
   height: 50px;
 }
 
-li p{
+.beneficios p{
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   text-align: left;
@@ -268,4 +262,70 @@ li p{
   text-align: center;
   font-family: 'Donegal One', sans-serif;
   color: #640F3D;
+}
+
+.tutorial{
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.tutorial li{
+  text-align: center;
+}
+
+.tutorial li svg{
+  width: 200px;
+  height: 200px;
+  color: #640F3D;
+}
+
+.tutorial li h2{
+  margin-bottom: 15px;
+  font-family: 'Donegal One', sans-serif;
+  font-size: 30px;
+  color: #640F3D;
+}
+
+.tutorial li p{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 25px;
+}
+
+.avaliacoes{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avaliacoes li{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: #640F3D;
+  border-radius: 15px;
+  width: 301px;
+  height: 194px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.avaliacoes p{
+  text-align: center;
+  color: #fff;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.avaliacoes h3{
+  text-align: center;
+  font-family: 'Donegal One', sans-serif;
+  font-size: 25px;
+  color: #fff;
 }
