@@ -46,7 +46,7 @@ function Apresenstacao() {
             para ajudar todas as mulheres.
           </p>
           <img src={mulher} alt="Banner" />
-          <button>Assine Já</button>
+          <a href="" className="btn-banner">Assine já</a>
       </header>
       <main>
         <ul className="beneficios">

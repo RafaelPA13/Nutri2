@@ -25,12 +25,69 @@
   justify-content: center;
 }
 
+.Centralizado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.Centralizado h1{
+  font-family: 'Donegal One', sans-serif;
+  font-size: 40px;
+  color: #8D1042;
+}
+
+.Centralizado p{
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
+  padding: 0px 60px;
+}
+
 .CentroX main{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
   margin: 30px 0px;
+}
+
+.CentroXY main svg{
+  width: 50px;
+  height: 50px;
+  color: #8d1042;
+}
+
+.btn{
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  background-color: #640F3D;
+  color: #fff;
+  font-weight: 1000;
+  text-decoration: none;
+}
+
+.bolinhas{
+  width: 100%;
+  padding: 0px 10px;
+  position: absolute;
+  top: 250px;
+}
+
+.bolota{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.bolota2{
+  transform: rotate(180deg);
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 .logo {
@@ -208,7 +265,7 @@
   font-family: 'Didact Gothic', sans-serif;
 }
 
-.banner button{
+.btn-banner{
   position: absolute;
   top: 230px;
   padding: 10px 40px;
@@ -333,14 +390,17 @@
 header{
   box-sizing: border-box;
   height: 70px;
+  width: 100%;
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
+  position: absolute;
+  top: 0px;
 }
 
-#btn-mobile{
+#btn-menu{
   display: flex;
   padding: .5rem 1rem;
   font-size: 1rem;
@@ -348,6 +408,36 @@ header{
   background: none;
   cursor: pointer;
   gap: .5rem;
+}
+
+.hamburguer{
+  border-top: 2px solid;
+  width: 20px;
+  color: #640f3d;
+}
+
+.hamburguer::after, .hamburguer::before{
+  content: '';
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: currentColor;
+  margin-top: 5px;
+  transition: .3s;
+  position: relative;
+}
+
+#nav.aberto .hamburguer{
+  border-top-color: transparent;
+}
+
+#nav.aberto .hamburguer::before{
+  transform: rotate(45deg);
+}
+
+#nav.aberto .hamburguer::after{
+  transform: rotate(-45deg);
+  top: -7px;
 }
 
 .menu{
@@ -369,7 +459,7 @@ header{
 }
 
 #nav.aberto .menu{
-  height: calc(36vh - 70px);
+  height: calc(35vh - 70px);
   visibility: visible;
   overflow-y: auto;
 }

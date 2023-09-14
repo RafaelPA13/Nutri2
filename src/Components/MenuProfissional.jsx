@@ -1,9 +1,9 @@
-import Nome from "../assets/Nutripause.png";
+import Nome from "../assets/Nutripause Pro.png";
 import Logo from '../assets/Logo.png'
 import { RiArrowRightSLine } from 'react-icons/ri'
 import { AiOutlineInstagram } from 'react-icons/ai'
 
-function MenuPaciente() {
+function MenuProfissional() {
     function AlterarMenu(){
         const nav = document.getElementById('nav')
         nav.classList.toggle('aberto')
@@ -18,15 +18,15 @@ function MenuPaciente() {
             </button>
             <ul className="menu">
                 <li>
-                    <a href="">Home</a>
+                    <a href="">Pedidos</a>
                     <RiArrowRightSLine/>
                 </li>
                 <li>
-                    <a href="">Quem Somos</a>
+                    <a href="">Pendentes</a>
                     <RiArrowRightSLine/>
                 </li>
                 <li>
-                    <a href="">Perfil Médico</a>
+                    <a href="">Clientes</a>
                     <RiArrowRightSLine/>
                 </li>
             </ul>
@@ -34,4 +34,4 @@ function MenuPaciente() {
    </header> 
   )
 }
-export default MenuPaciente;
+export default MenuProfissional;
