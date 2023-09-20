@@ -272,6 +272,7 @@
   border-radius: 10px;
   border: none;
   font-family: 'Inter', sans-serif;
+  text-decoration: none;
   background-color: #640F3D;
   color: #fff;
   font-weight: 1000;
@@ -387,7 +388,7 @@
   color: #fff;
 }
 
-header{
+.header-menu{
   box-sizing: border-box;
   height: 70px;
   width: 100%;
@@ -485,4 +486,40 @@ header{
   color: #fff;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
+}
+
+.Avisos{
+  text-align: center;
+}
+
+.Avisos h1{
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: #8D1042;
+}
+
+.Avisos a{
+  padding: 10px 40px;
+  background-color: #640F3D;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: 'Donegal One', sans-serif;
+}
+
+.carregando{
+  width: 80px;
+  height: 80px;
+  border: 20px solid #ccc7b2;
+  border-top-color: #8d1042;
+  border-radius: 50%;
+  animation: rodar 1s linear infinite;
+}
+
+@keyframes rodar{
+  to{
+    transform: rotate(360deg);
+  }
 }

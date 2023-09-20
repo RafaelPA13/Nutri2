@@ -13,10 +13,14 @@ function CadastroPaciente() {
     e.preventDefault()
     createUserWithEmailAndPassword(email, password);
    }
+   if(user){
+    console.log(user)
+   }
 
    if(loading){
     return <p>carregando...</p>
    }
+
 
   return (
     <body className="CentroXY">

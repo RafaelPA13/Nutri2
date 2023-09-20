@@ -10,7 +10,7 @@ function MenuPaciente() {
     }
 
   return (
-   <header>
+   <header className="header-menu">
     <img src={Nome} alt="Nome"/>
         <nav id='nav'>
             <button id="btn-menu" onClick={AlterarMenu}>
