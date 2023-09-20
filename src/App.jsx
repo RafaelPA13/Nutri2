@@ -6,6 +6,7 @@ import CadastroPaciente from './PacientePages/CadastroPaciente'
 import CadastroProfissional from './ProfissionalPages/CadastroPro'
 import Apresentacao from './Pages/Apresentacao'
 import Confirmacao from './Pages/ConfirmacaoDaCompra'
+import HomeProfissional from './ProfissionalPages/HomePro'
 
 function App(){
   return(
@@ -19,6 +20,7 @@ function App(){
           <Route path='/cadastroprofissional' element={<CadastroProfissional/>}/>
           <Route path='/apresentacao' element={<Apresentacao/>}/>
           <Route path='/confirmacao' element={<Confirmacao/>}/>
+          <Route path='/homeprofissionais' element={<HomeProfissional/>}/>
         </Routes>
       </BrowserRouter>
     </div>

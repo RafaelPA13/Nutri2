@@ -1,7 +1,6 @@
 import Nome from "../assets/Nutripause.png";
 import Logo from '../assets/Logo.png'
 import { RiArrowRightSLine } from 'react-icons/ri'
-import { AiOutlineInstagram } from 'react-icons/ai'
 
 function MenuPaciente() {
     function AlterarMenu(){

@@ -17,8 +17,7 @@ function LoginProfissional() {
   }
 
   if(user){
-    // navigate('/homeprofissionais');
-    console.log(user)
+    navigate('/homeprofissionais');
   }
 
   if(loading){

@@ -1,7 +1,6 @@
 import Nome from "../assets/Nutripause Pro.png";
 import Logo from '../assets/Logo.png'
 import { RiArrowRightSLine } from 'react-icons/ri'
-import { AiOutlineInstagram } from 'react-icons/ai'
 
 function MenuProfissional() {
     function AlterarMenu(){
@@ -10,7 +9,7 @@ function MenuProfissional() {
     }
 
   return (
-   <header className=".header-menu">
+   <header className="header-menu">
     <img src={Nome} alt="Nome"/>
         <nav id='nav'>
             <button id="btn-menu" onClick={AlterarMenu}>
