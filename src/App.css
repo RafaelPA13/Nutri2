@@ -49,8 +49,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 15px;
   margin: 30px 0px;
+}
+
+.titulos-pagamentos{
+  color: #640f3d;
+  font-size: 35px;
+  align-self: flex-start;
+  padding: 0px 15px;
+  font-family: 'Donegal One', sans-serif;
+}
+
+.subtitulos-pagamentos{
+  color: #8d1042;
+  font-size: 20px;
+  align-self: flex-start;
+  padding: 0px 15px;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 .CentroXY main svg{
@@ -67,6 +83,7 @@
   background-color: #640F3D;
   color: #fff;
   font-weight: 1000;
+  z-index: 100;
   text-decoration: none;
 }
 
@@ -524,11 +541,78 @@
   }
 }
 
-
 .barra-topo{
   width: 100%;
   padding: 15px 0px;
   background:#8d1042;
   position: absolute;
   top: 0px;
+}
+
+.biografia{
+  width: 90%;
+  border-radius: 15px;
+  border: 2px solid #8d1042;
+}
+
+.bloco-pagamento{
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 50px;
+  color: #640f3d;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.bloco-pagamento .total{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bloco-pagamento .total p{
+  color: #000;
+  font-size: 25px;
+  font-family: 'Donegal One', sans-serif;
+}
+
+.radio-group{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.radio-group li{
+  background-color: #ebe5ce;
+  border: 2px solid #640F3D;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px;
+}
+
+.radio-group input{
+  accent-color: #640F3D;
+}
+
+.radio-group div{
+  display: flex;
+  gap: 5px;
+}
+
+.radio-group h1{
+  font-family: 'Donegal One', sans-serif;
+  font-size: 20px;
+}
+
+.radio-group img{
+  padding: 0px 10px;
 }
