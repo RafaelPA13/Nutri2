@@ -60,7 +60,7 @@ function Pagamento(){
                     </div>
                 </div>
 
-                <a href="" className='btn'>Pagar</a>
+                <a href="/homepaciente" className='btn'>Pagar</a>
             </main>
         </body>
     )

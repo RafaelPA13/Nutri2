@@ -53,12 +53,87 @@
   margin: 30px 0px;
 }
 
+.Main-Home-Page{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 70px;
+  background-color: #ebe5ce;
+}
+
+.ListaDeCards{
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Card{
+  width: 75%;
+}
+
+.Header-Card{
+  width: 100%;
+  height: 75px;
+  border: 2px solid #640f3d;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+.Header-Card button{
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #640f3d;
+  background-color: #640f3d;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  z-index: 1;
+}
+
+.Card-Body{
+  width: 100%;
+  background-color: #640f3d;
+  padding: 15px;
+  position: relative;
+  top: -12px;
+  border-radius: 0px 0px 20px 20px;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #fff;
+  visibility: hidden;
+  height: 0px;
+  transition: .6s;
+  overflow-y: hidden;
+}
+
+.Card-Body.aberto{
+  visibility: visible;
+  height: 15vh;
+  overflow-y: auto;
+}
+
+.ListaDeReceitas{
+  padding: 0px 30px;
+  list-style: disc;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
 .titulos-pagamentos{
   color: #640f3d;
   font-size: 35px;
   align-self: flex-start;
   padding: 0px 15px;
-  font-family: 'Donegal One', sans-serif;
 }
 
 .subtitulos-pagamentos{
