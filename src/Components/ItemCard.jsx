@@ -25,16 +25,14 @@ function ItemCard({title, img}) {
   return (
     <li className="Card">
       <div className="Header-Card" style={{backgroundImage:`url(${img})`}}>
-        <button onClick={()=>{setOpen(!open)}}>
-          {title} <IoIosArrowForward/>
-        </button>
+        <button onClick={()=>{setOpen(!open)}}>{title} <IoIosArrowForward/></button>
       </div>
       <div className={open ? "Card-Body aberto" : "Card-Body"}>
         <h3>Receitas</h3>
         <ul className="ListaDeReceitas">
-          {receitasFiltradas.map(receita=>(
-            <li>
-              {receita.Comida}
+          {receitasFiltradas.map((receita,i)=>(
+            <li key={i}>
+              <p receita={receita}>{receita.Comida}</p>
             </li>
           ))}
         </ul>

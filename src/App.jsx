@@ -10,6 +10,7 @@ import HomeProfissional from './ProfissionalPages/HomePro'
 import PlanoConsulta from './Pages/PlanoConsulta'
 import Pagamento from './Pages/Pagamento'
 import HomePaciente from './PacientePages/HomePaciente'
+import PerfilPaciente from './ProfissionalPages/PerfilPaciente'
 
 function App(){
   return(
@@ -27,6 +28,7 @@ function App(){
           <Route path='/planos' element={<PlanoConsulta/>}/>
           <Route path='/pagamento' element={<Pagamento/>}/>
           <Route path='/homepaciente' element={<HomePaciente/>}/>
+          <Route path='/perfilpaciente' element={<PerfilPaciente/>}/>
         </Routes>
       </BrowserRouter>
     </div>

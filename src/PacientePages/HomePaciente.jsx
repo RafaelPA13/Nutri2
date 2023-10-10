@@ -6,7 +6,7 @@ function HomePaciente(){
         <body className="CentroX">
             <div className="barra-topo"></div>
             <MenuPaciente/>
-            <main className='Main-Home-Page'>
+            <main className='Main-Com-Menu'>
                 <div>
                     <h1>calendário</h1>
                 </div>
