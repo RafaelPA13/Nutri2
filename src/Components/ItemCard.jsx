@@ -3,7 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { db } from "../Services/firebaseConfig"
 import { doc, collection, onSnapshot, query } from "firebase/firestore"
 
-function ItemCard({title, img}) {
+function ItemCard({title, img, Selecionar}) {
 
   const [open, setOpen] = useState(false)
   const [Receitas, setReceitas] = useState([])
@@ -32,7 +32,7 @@ function ItemCard({title, img}) {
         <ul className="ListaDeReceitas">
           {receitasFiltradas.map((receita,i)=>(
             <li key={i}>
-              <p receita={receita}>{receita.Comida}</p>
+              <p onClick={()=>Selecionar(receita.id, receita.Comida)}>{receita.Comida}</p>
             </li>
           ))}
         </ul>
