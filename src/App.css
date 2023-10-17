@@ -51,7 +51,6 @@
   align-items: center;
   gap: 15px;
   margin: 30px 0px;
-  min-height: 100%;
 }
 
 .Main-Com-Menu{
@@ -72,12 +71,6 @@
 .Main-Com-Menu h1{
   font-family: 'Donegal One', sans-serif;
   color: #8D1042;
-}
-
-.SobreNos{
-  text-align: center;
-  font-size: 25px;
-  padding: 0px 50px;
 }
 
 .Header-Input{
@@ -255,14 +248,6 @@
   padding: 0px 10px;
   position: absolute;
   top: 250px;
-}
-
-.bolinhas2{
-  transform: scaleX(-1);
-  width: 100%;
-  padding: 0px 10px;
-  position: absolute;
-  top: 700px
 }
 
 .bolota{

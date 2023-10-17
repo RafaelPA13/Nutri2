@@ -11,7 +11,6 @@ import PlanoConsulta from './Pages/PlanoConsulta'
 import Pagamento from './Pages/Pagamento'
 import HomePaciente from './PacientePages/HomePaciente'
 import PerfilPaciente from './ProfissionalPages/PerfilPaciente'
-import QuemSomos from './PacientePages/QuemSomos'
 
 function App(){
   return(
@@ -30,7 +29,6 @@ function App(){
           <Route path='/pagamento' element={<Pagamento/>}/>
           <Route path='/homepaciente' element={<HomePaciente/>}/>
           <Route path='/perfilpaciente' element={<PerfilPaciente/>}/>
-          <Route path='/quemsomos' element={<QuemSomos/>}/>
         </Routes>
       </BrowserRouter>
     </div>
