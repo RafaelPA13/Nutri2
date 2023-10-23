@@ -27,7 +27,9 @@ function PerfilPaciente() {
       Comida: text,
       Refeicao: checkbox,
     });
-    setText(""), setCheckbox("");
+
+    setText("")
+    setCheckbox("")
   };
 
   const Selecionar = (id, alimento) => {
@@ -65,25 +67,25 @@ function PerfilPaciente() {
           <ul className="checkbox">
             <li>
               <label>
-                <input name="refeição" type="radio" value={"Café da Manhã"} onChange={(e) => {setCheckbox(e.target.value);}}/>
+                <input name="refeição" type="radio" checked={checkbox === "Café da Manhã" ? "checked" : ""} value={"Café da Manhã"} onChange={(e) => {setCheckbox(e.target.value);}}/>
                 <p>Café da manhã</p>
               </label>
             </li>
             <li>
               <label>
-                <input name="refeição" type="radio" value={"Almoço"} onChange={(e) => {setCheckbox(e.target.value);}}/>
+                <input name="refeição" type="radio" value={"Almoço"} checked={checkbox === "Almoço" ? "checked" : ""} onChange={(e) => {setCheckbox(e.target.value);}}/>
                 <p>Almoço</p>
               </label>
             </li>
             <li>
               <label>
-                <input name="refeição" type="radio" value={"Lanches"} onChange={(e) => {setCheckbox(e.target.value);}}/>
+                <input name="refeição" type="radio" value={"Lanches"} checked={checkbox === "Lanches" ? "checked" : ""} onChange={(e) => {setCheckbox(e.target.value);}}/>
                 <p>Lanches</p>
               </label>
             </li>
             <li>
               <label>
-                <input name="refeição" type="radio" value={"Janta"} onChange={(e) => {setCheckbox(e.target.value);}}/>
+                <input name="refeição" type="radio" value={"Janta"} checked={checkbox === "Janta" ? "checked" : ""} onChange={(e) => {setCheckbox(e.target.value);}}/>
                 <p>Janta</p>
               </label>
             </li>
